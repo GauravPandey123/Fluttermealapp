@@ -1,7 +1,16 @@
 import 'package:flutter/foundation.dart';
 
-enum Complexity { Simple, Challenging, Hard }
-enum Affordability { Affordable, Pricey, Luxurious }
+enum Complexity {
+  Simple,
+  Challenging,
+  Hard,
+}
+
+enum Affordability {
+  Affordable,
+  Pricey,
+  Luxurious,
+}
 
 class Meal {
   final String id;
@@ -31,7 +40,6 @@ class Meal {
     @required this.isGlutenFree,
     @required this.isLactoseFree,
     @required this.isVegan,
-    @required this.isVegetarian
+    @required this.isVegetarian,
   });
 }
-
